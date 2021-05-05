@@ -1,0 +1,513 @@
+[2021-04-20T15:46:24.213] [DEBUG] cheese - login => username:zs,password:123456
+[2021-04-20T15:46:24.215] [DEBUG] cheese - zs
+[2021-04-20T15:46:24.228] [DEBUG] cheese - null
+[2021-04-20T15:46:24.228] [DEBUG] cheese - null
+[2021-04-20T15:47:13.069] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T15:47:13.069] [DEBUG] cheese - admin
+[2021-04-20T15:47:13.077] [DEBUG] cheese - null
+[2021-04-20T15:47:13.077] [DEBUG] cheese - null
+[2021-04-20T21:32:24.852] [DEBUG] cheese - login => username:zs1,password:1231234
+[2021-04-20T21:32:24.852] [DEBUG] cheese - zs1
+[2021-04-20T21:32:26.902] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:32:26.908] [DEBUG] cheese - 查询失败
+[2021-04-20T21:35:55.943] [DEBUG] cheese - login => username:zs12,password:1231234
+[2021-04-20T21:35:55.943] [DEBUG] cheese - zs12
+[2021-04-20T21:35:57.961] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:35:57.962] [DEBUG] cheese - 查询失败
+[2021-04-20T21:38:06.215] [DEBUG] cheese - login => username:zs12,password:1231234
+[2021-04-20T21:38:06.215] [DEBUG] cheese - zs12
+[2021-04-20T21:38:08.261] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:38:08.261] [DEBUG] cheese - 查询失败
+[2021-04-20T21:38:15.726] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:38:15.726] [DEBUG] cheese - admin
+[2021-04-20T21:38:17.749] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:38:17.750] [DEBUG] cheese - 查询失败
+[2021-04-20T21:38:26.158] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:38:26.158] [DEBUG] cheese - admin
+[2021-04-20T21:38:27.820] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:38:27.820] [DEBUG] cheese - admin
+[2021-04-20T21:38:28.198] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:38:28.198] [DEBUG] cheese - 查询失败
+[2021-04-20T21:38:28.581] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:38:28.581] [DEBUG] cheese - admin
+[2021-04-20T21:38:29.873] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:38:29.873] [DEBUG] cheese - 查询失败
+[2021-04-20T21:38:30.631] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:38:30.632] [DEBUG] cheese - 查询失败
+[2021-04-20T21:38:48.151] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:38:48.151] [DEBUG] cheese - admin
+[2021-04-20T21:38:50.178] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:38:50.178] [DEBUG] cheese - 查询失败
+[2021-04-20T21:40:02.894] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:40:02.894] [DEBUG] cheese - admin
+[2021-04-20T21:40:04.927] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:40:04.927] [DEBUG] cheese - 查询失败
+[2021-04-20T21:40:22.717] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:40:22.717] [DEBUG] cheese - admin
+[2021-04-20T21:40:24.769] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:40:24.769] [DEBUG] cheese - 查询失败
+[2021-04-20T21:41:02.531] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T21:41:02.531] [DEBUG] cheese - admin
+[2021-04-20T21:41:04.583] [DEBUG] cheese - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+    --------------------
+    at Protocol._enqueue (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\mysql\lib\Pool.js:48:16)
+    at Driver.poolQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:226:16)
+    at Driver.execSimpleQuery (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:101:10)
+    at Driver.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Drivers\DML\mysql.js:145:8)
+    at chainRun (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:35:17)
+    at Object.run (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\ChainFind.js:224:7)
+    at Function.Model.model.find (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:441:13)
+    at Function.Model.model.one (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\orm\lib\Model.js:476:22)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\DAO.js:134:8)
+    at Object.module.exports.findOne (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\dao\ManagerDAO.js:35:12)
+    at module.exports.login (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\services\ManagerService.js:218:14)
+    at Strategy._verify (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\modules\passport.js:25:4)
+    at Strategy.authenticate (E:\前端\web前端\黑马\6.Vue.js\6.电商项目实战\素材\vue_api_server\node_modules\passport-local\lib\strategy.js:90:12)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2021-04-20T21:41:04.583] [DEBUG] cheese - 查询失败
+[2021-04-20T22:19:56.481] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T22:19:56.483] [DEBUG] cheese - admin
+[2021-04-20T22:19:56.492] [DEBUG] cheese - null
+[2021-04-20T22:19:56.493] [DEBUG] cheese - null
+[2021-04-20T22:21:11.896] [DEBUG] cheese - login => username:zs1,password:12312345
+[2021-04-20T22:21:11.896] [DEBUG] cheese - zs1
+[2021-04-20T22:21:11.898] [DEBUG] cheese - null
+[2021-04-20T22:21:11.898] [DEBUG] cheese - null
+[2021-04-20T22:21:20.262] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T22:21:20.262] [DEBUG] cheese - admin
+[2021-04-20T22:21:20.265] [DEBUG] cheese - null
+[2021-04-20T22:21:20.265] [DEBUG] cheese - null
+[2021-04-20T22:26:10.069] [DEBUG] cheese - login => username:zs1,password:12311111
+[2021-04-20T22:26:10.069] [DEBUG] cheese - zs1
+[2021-04-20T22:26:10.072] [DEBUG] cheese - null
+[2021-04-20T22:26:10.072] [DEBUG] cheese - null
+[2021-04-20T22:26:16.924] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T22:26:16.924] [DEBUG] cheese - admin
+[2021-04-20T22:26:16.926] [DEBUG] cheese - null
+[2021-04-20T22:26:16.926] [DEBUG] cheese - null
+[2021-04-20T22:28:13.638] [DEBUG] cheese - login => username:zs11111,password:12311111111
+[2021-04-20T22:28:13.638] [DEBUG] cheese - zs11111
+[2021-04-20T22:28:13.640] [DEBUG] cheese - null
+[2021-04-20T22:28:13.640] [DEBUG] cheese - null
+[2021-04-20T22:28:25.660] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T22:28:25.660] [DEBUG] cheese - admin
+[2021-04-20T22:28:25.662] [DEBUG] cheese - null
+[2021-04-20T22:28:25.662] [DEBUG] cheese - null
+[2021-04-20T22:44:24.399] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T22:44:24.399] [DEBUG] cheese - admin
+[2021-04-20T22:44:24.401] [DEBUG] cheese - null
+[2021-04-20T22:44:24.401] [DEBUG] cheese - null
+[2021-04-20T22:45:06.150] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T22:45:06.151] [DEBUG] cheese - admin
+[2021-04-20T22:45:06.152] [DEBUG] cheese - null
+[2021-04-20T22:45:06.152] [DEBUG] cheese - null
+[2021-04-20T22:47:33.712] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T22:47:33.712] [DEBUG] cheese - admin
+[2021-04-20T22:47:33.714] [DEBUG] cheese - null
+[2021-04-20T22:47:33.714] [DEBUG] cheese - null
+[2021-04-20T23:05:17.349] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T23:05:17.349] [DEBUG] cheese - admin
+[2021-04-20T23:05:17.351] [DEBUG] cheese - null
+[2021-04-20T23:05:17.351] [DEBUG] cheese - null
+[2021-04-20T23:08:06.061] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T23:08:06.061] [DEBUG] cheese - admin
+[2021-04-20T23:08:06.064] [DEBUG] cheese - null
+[2021-04-20T23:08:06.065] [DEBUG] cheese - null
+[2021-04-20T23:55:45.963] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-20T23:55:45.963] [DEBUG] cheese - admin
+[2021-04-20T23:55:45.967] [DEBUG] cheese - null
+[2021-04-20T23:55:45.967] [DEBUG] cheese - null
+[2021-04-21T00:39:37.945] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-21T00:39:37.945] [DEBUG] cheese - admin
+[2021-04-21T00:39:37.949] [DEBUG] cheese - null
+[2021-04-21T00:39:37.950] [DEBUG] cheese - null
+[2021-04-21T01:05:30.794] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-21T01:05:30.794] [DEBUG] cheese - admin
+[2021-04-21T01:05:30.798] [DEBUG] cheese - null
+[2021-04-21T01:05:30.798] [DEBUG] cheese - null
+[2021-04-21T16:41:57.977] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-21T16:41:57.983] [DEBUG] cheese - admin
+[2021-04-21T16:41:58.014] [DEBUG] cheese - null
+[2021-04-21T16:41:58.015] [DEBUG] cheese - null
+[2021-04-21T19:56:07.196] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-21T19:56:07.197] [DEBUG] cheese - admin
+[2021-04-21T19:56:07.200] [DEBUG] cheese - null
+[2021-04-21T19:56:07.200] [DEBUG] cheese - null
+[2021-04-22T00:18:24.542] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-22T00:18:24.542] [DEBUG] cheese - admin
+[2021-04-22T00:18:24.546] [DEBUG] cheese - null
+[2021-04-22T00:18:24.546] [DEBUG] cheese - null
+[2021-04-22T17:16:10.052] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-22T17:16:10.056] [DEBUG] cheese - admin
+[2021-04-22T17:16:10.130] [DEBUG] cheese - null
+[2021-04-22T17:16:10.131] [DEBUG] cheese - null
+[2021-04-22T18:48:29.413] [DEBUG] cheese - null
+[2021-04-22T18:52:09.659] [DEBUG] cheese - null
+[2021-04-22T18:52:44.083] [DEBUG] cheese - null
+[2021-04-22T19:34:01.553] [DEBUG] cheese - null
+[2021-04-22T19:34:50.973] [DEBUG] cheese - null
+[2021-04-22T19:35:03.511] [DEBUG] cheese - null
+[2021-04-22T22:51:55.607] [DEBUG] cheese - null
+[2021-04-22T22:55:37.462] [DEBUG] cheese - null
+[2021-04-22T23:47:15.321] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-22T23:47:15.324] [DEBUG] cheese - admin
+[2021-04-22T23:47:15.342] [DEBUG] cheese - null
+[2021-04-22T23:47:15.342] [DEBUG] cheese - null
+[2021-04-23T15:40:39.491] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-23T15:40:39.495] [DEBUG] cheese - admin
+[2021-04-23T15:40:39.533] [DEBUG] cheese - null
+[2021-04-23T15:40:39.534] [DEBUG] cheese - null
+[2021-04-23T17:38:47.195] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-23T17:38:47.196] [DEBUG] cheese - admin
+[2021-04-23T17:38:47.201] [DEBUG] cheese - null
+[2021-04-23T17:38:47.201] [DEBUG] cheese - null
+[2021-04-24T19:28:12.765] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-24T19:28:12.766] [DEBUG] cheese - admin
+[2021-04-24T19:28:12.794] [DEBUG] cheese - null
+[2021-04-24T19:28:12.795] [DEBUG] cheese - null
+[2021-04-24T21:14:20.057] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-24T21:14:20.057] [DEBUG] cheese - admin
+[2021-04-24T21:14:20.064] [DEBUG] cheese - null
+[2021-04-24T21:14:20.064] [DEBUG] cheese - null
+[2021-04-25T01:10:58.514] [DEBUG] cheese - null
+[2021-04-25T14:34:01.163] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-25T14:34:01.166] [DEBUG] cheese - admin
+[2021-04-25T14:34:01.220] [DEBUG] cheese - null
+[2021-04-25T14:34:01.220] [DEBUG] cheese - null
+[2021-04-25T22:38:29.631] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-25T22:38:29.636] [DEBUG] cheese - admin
+[2021-04-25T22:38:29.647] [DEBUG] cheese - null
+[2021-04-25T22:38:29.648] [DEBUG] cheese - null
+[2021-04-25T22:45:10.966] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-25T22:45:10.966] [DEBUG] cheese - admin
+[2021-04-25T22:45:10.973] [DEBUG] cheese - null
+[2021-04-25T22:45:10.973] [DEBUG] cheese - null
+[2021-04-25T23:04:20.630] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-25T23:04:20.630] [DEBUG] cheese - admin
+[2021-04-25T23:04:20.633] [DEBUG] cheese - null
+[2021-04-25T23:04:20.633] [DEBUG] cheese - null
+[2021-04-25T23:14:15.422] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-25T23:14:15.423] [DEBUG] cheese - admin
+[2021-04-25T23:14:15.427] [DEBUG] cheese - null
+[2021-04-25T23:14:15.427] [DEBUG] cheese - null
+[2021-04-25T23:35:38.677] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-25T23:35:38.677] [DEBUG] cheese - admin
+[2021-04-25T23:35:38.679] [DEBUG] cheese - null
+[2021-04-25T23:35:38.679] [DEBUG] cheese - null
+[2021-04-26T00:42:23.747] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:42:23.747] [DEBUG] cheese - admin
+[2021-04-26T00:42:23.761] [DEBUG] cheese - null
+[2021-04-26T00:42:23.761] [DEBUG] cheese - null
+[2021-04-26T00:44:14.726] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:44:14.726] [DEBUG] cheese - admin
+[2021-04-26T00:44:14.728] [DEBUG] cheese - null
+[2021-04-26T00:44:14.728] [DEBUG] cheese - null
+[2021-04-26T00:50:56.319] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:50:56.319] [DEBUG] cheese - admin
+[2021-04-26T00:50:56.322] [DEBUG] cheese - null
+[2021-04-26T00:50:56.322] [DEBUG] cheese - null
+[2021-04-26T00:52:52.927] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:52:52.927] [DEBUG] cheese - admin
+[2021-04-26T00:52:52.930] [DEBUG] cheese - null
+[2021-04-26T00:52:52.930] [DEBUG] cheese - null
+[2021-04-26T00:55:04.548] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:55:04.548] [DEBUG] cheese - admin
+[2021-04-26T00:55:04.551] [DEBUG] cheese - null
+[2021-04-26T00:55:04.551] [DEBUG] cheese - null
+[2021-04-26T00:55:37.692] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:55:37.692] [DEBUG] cheese - admin
+[2021-04-26T00:55:37.694] [DEBUG] cheese - null
+[2021-04-26T00:55:37.695] [DEBUG] cheese - null
+[2021-04-26T00:58:51.796] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:58:51.796] [DEBUG] cheese - admin
+[2021-04-26T00:58:51.799] [DEBUG] cheese - null
+[2021-04-26T00:58:51.799] [DEBUG] cheese - null
+[2021-04-26T00:58:58.024] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:58:58.024] [DEBUG] cheese - admin
+[2021-04-26T00:58:58.025] [DEBUG] cheese - null
+[2021-04-26T00:58:58.025] [DEBUG] cheese - null
+[2021-04-26T00:59:25.722] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:59:25.722] [DEBUG] cheese - admin
+[2021-04-26T00:59:25.725] [DEBUG] cheese - null
+[2021-04-26T00:59:25.725] [DEBUG] cheese - null
+[2021-04-26T00:59:48.009] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T00:59:48.009] [DEBUG] cheese - admin
+[2021-04-26T00:59:48.013] [DEBUG] cheese - null
+[2021-04-26T00:59:48.013] [DEBUG] cheese - null
+[2021-04-26T01:02:44.283] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T01:02:44.283] [DEBUG] cheese - admin
+[2021-04-26T01:02:44.285] [DEBUG] cheese - null
+[2021-04-26T01:02:44.285] [DEBUG] cheese - null
+[2021-04-26T01:03:22.227] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T01:03:22.227] [DEBUG] cheese - admin
+[2021-04-26T01:03:22.229] [DEBUG] cheese - null
+[2021-04-26T01:03:22.229] [DEBUG] cheese - null
+[2021-04-26T01:07:36.897] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T01:07:36.897] [DEBUG] cheese - admin
+[2021-04-26T01:07:36.898] [DEBUG] cheese - null
+[2021-04-26T01:07:36.898] [DEBUG] cheese - null
+[2021-04-26T01:10:57.311] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T01:10:57.311] [DEBUG] cheese - admin
+[2021-04-26T01:10:57.313] [DEBUG] cheese - null
+[2021-04-26T01:10:57.313] [DEBUG] cheese - null
+[2021-04-26T01:13:39.409] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T01:13:39.409] [DEBUG] cheese - admin
+[2021-04-26T01:13:39.413] [DEBUG] cheese - null
+[2021-04-26T01:13:39.413] [DEBUG] cheese - null
+[2021-04-26T21:56:25.337] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T21:56:25.339] [DEBUG] cheese - admin
+[2021-04-26T21:56:25.370] [DEBUG] cheese - null
+[2021-04-26T21:56:25.370] [DEBUG] cheese - null
+[2021-04-26T22:08:46.498] [DEBUG] cheese - login => username:admin,password:123456
+[2021-04-26T22:08:46.498] [DEBUG] cheese - admin
+[2021-04-26T22:08:46.501] [DEBUG] cheese - null
+[2021-04-26T22:08:46.501] [DEBUG] cheese - null
